@@ -1,4 +1,4 @@
-$('#formlogin').submit(function(e){
+('#formlogin').submit(function(e){
     e.preventDefault();
     //Traemos las variables del formulario formlogin al js y se le entrega una variable local, recordar que el nombre parametros debe coincidir con el id del input.
     //trim elimina los espacios que traiga el dato ingresado
@@ -7,4 +7,12 @@ $('#formlogin').submit(function(e){
 
     //Probar que se este leyendo el valor en login.php y que lo resiva y muestre el js.
     alert(usuario);
+
+    //Validacion si alguno de los campos viene vacio que indique alguna alerta
+    
+     
+    //if(usuario.length == "" || password == ""){
+    //    alert("Ingresar un Usuario y/o Password")
+    //}
+    
 });

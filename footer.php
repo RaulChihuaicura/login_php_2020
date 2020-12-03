@@ -18,8 +18,4 @@
 <script src="../plugins/popper.min.js"></script>
 
 <!-- Propio js -->
-<script src="/js/parametros.js"></script>
-
-
-
-
+<script src="../js/parametros.js"></script>
